@@ -1,5 +1,5 @@
 module.exports = {
-  "transpileDependencies": [
-    "vuetify"
-  ]
-}
+  publicPath:
+    process.env.NODE_ENV === "production" ? "/fjala-team1/" : "/",
+  transpileDependencies: ["vuetify"],
+};
