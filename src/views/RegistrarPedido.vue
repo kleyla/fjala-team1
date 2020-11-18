@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import PedidoRegisterFormCard from "@/components/pedido/PedidoRegisterFormCard";
+import PedidoRegisterFormCard from "../components/pedido/PedidoRegisterFormCard";
 
 export default {
   name: "RegistrarPedido",
